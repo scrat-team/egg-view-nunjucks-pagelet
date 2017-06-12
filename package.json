@@ -51,6 +51,9 @@
   "ci": {
     "version": "6, 8"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "Axes <whxaxes@gmail.com>",
   "license": "MIT",
   "bugs": "https://github.com/scrat-team/egg-view-nunjucks-pagelet/issues",
