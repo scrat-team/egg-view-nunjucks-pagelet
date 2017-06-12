@@ -1,0 +1,225 @@
+{
+  "comboPattern": "/co??%s",
+  "res": {
+    "component/framework/zepto/zepto.js": {
+      "uri": "/public/c/framework/zepto/zepto.js",
+      "type": "js"
+    },
+    "component/page/detail/detail.tpl": {
+      "uri": "c/page/detail/detail.tpl",
+      "type": "tpl",
+      "deps": [
+        "widget/nav",
+        "widget/detail"
+      ]
+    },
+    "component/page/include/include.tpl": {
+      "uri": "c/page/include/include.tpl",
+      "type": "tpl"
+    },
+    "component/page/list/list.tpl": {
+      "uri": "c/page/list/list.tpl",
+      "type": "tpl",
+      "deps": [
+        "widget/list"
+      ]
+    },
+    "component/widget/boot/boot.js": {
+      "uri": "/public/c/widget/boot/boot.js",
+      "type": "js"
+    },
+    "component/widget/card/card.scss": {
+      "uri": "/public/c/widget/card/card.css",
+      "type": "css"
+    },
+    "component/widget/card/card.tpl": {
+      "uri": "c/widget/card/card.tpl",
+      "type": "tpl",
+      "deps": [
+        "component/widget/card/card.scss"
+      ]
+    },
+    "component/widget/detail/detail.js": {
+      "uri": "/public/c/widget/detail/detail.js",
+      "type": "js",
+      "deps": [
+        "widget/boot",
+        "component/widget/detail/detail.scss"
+      ]
+    },
+    "component/widget/detail/detail.scss": {
+      "uri": "/public/c/widget/detail/detail.css",
+      "type": "css"
+    },
+    "component/widget/detail/detail.tpl": {
+      "uri": "c/widget/detail/detail.tpl",
+      "type": "tpl",
+      "deps": [
+        "component/widget/detail/detail.js",
+        "component/widget/detail/detail.scss"
+      ]
+    },
+    "component/widget/header/header.css": {
+      "uri": "/public/c/widget/header/header.css",
+      "type": "css"
+    },
+    "component/widget/header/header.js": {
+      "uri": "/public/c/widget/header/header.js",
+      "type": "js",
+      "deps": [
+        "component/widget/header/header.css"
+      ]
+    },
+    "component/widget/header/header.tpl": {
+      "uri": "c/widget/header/header.tpl",
+      "type": "tpl",
+      "deps": [
+        "component/widget/header/header.css",
+        "component/widget/header/header.js"
+      ]
+    },
+    "component/widget/list/list.js": {
+      "uri": "/public/c/widget/list/list.js",
+      "type": "js",
+      "deps": [
+        "widget/boot",
+        "component/widget/list/list.scss"
+      ]
+    },
+    "component/widget/list/list.scss": {
+      "uri": "/public/c/widget/list/list.css",
+      "type": "css"
+    },
+    "component/widget/list/list.tpl": {
+      "uri": "c/widget/list/list.tpl",
+      "type": "tpl",
+      "deps": [
+        "widget/card",
+        "component/widget/list/list.js",
+        "component/widget/list/list.scss"
+      ]
+    },
+    "component/widget/nav/nav.scss": {
+      "uri": "/public/c/widget/nav/nav.css",
+      "type": "css"
+    },
+    "component/widget/nav/nav.tpl": {
+      "uri": "c/widget/nav/nav.tpl",
+      "type": "tpl",
+      "deps": [
+        "component/widget/nav/nav.scss"
+      ]
+    },
+    "component/widget/shared-style/images/bg_view.png": {
+      "uri": "/public/c/widget/shared-style/images/bg_view.png",
+      "type": "png"
+    },
+    "component/widget/shared-style/images/blank_pic_error.png": {
+      "uri": "/public/c/widget/shared-style/images/blank_pic_error.png",
+      "type": "png"
+    },
+    "component/widget/shared-style/images/border-b.png": {
+      "uri": "/public/c/widget/shared-style/images/border-b.png",
+      "type": "png"
+    },
+    "component/widget/shared-style/images/border-t.png": {
+      "uri": "/public/c/widget/shared-style/images/border-t.png",
+      "type": "png"
+    },
+    "component/widget/shared-style/images/border_detail.png": {
+      "uri": "/public/c/widget/shared-style/images/border_detail.png",
+      "type": "png"
+    },
+    "component/widget/shared-style/images/default_pic.png": {
+      "uri": "/public/c/widget/shared-style/images/default_pic.png",
+      "type": "png"
+    },
+    "component/widget/shared-style/images/detail_line.png": {
+      "uri": "/public/c/widget/shared-style/images/detail_line.png",
+      "type": "png"
+    },
+    "component/widget/shared-style/images/icon_gif.png": {
+      "uri": "/public/c/widget/shared-style/images/icon_gif.png",
+      "type": "png"
+    },
+    "component/widget/shared-style/images/item_close.png": {
+      "uri": "/public/c/widget/shared-style/images/item_close.png",
+      "type": "png"
+    },
+    "component/widget/shared-style/images/newsdetail_icon.png": {
+      "uri": "/public/c/widget/shared-style/images/newsdetail_icon.png",
+      "type": "png"
+    },
+    "component/widget/shared-style/images/pop_nothing.png": {
+      "uri": "/public/c/widget/shared-style/images/pop_nothing.png",
+      "type": "png"
+    },
+    "component/widget/shared-style/images/tips_close.png": {
+      "uri": "/public/c/widget/shared-style/images/tips_close.png",
+      "type": "png"
+    },
+    "component/widget/shared-style/shared-style.scss": {
+      "uri": "/public/c/widget/shared-style/shared-style.css",
+      "type": "css"
+    },
+    "view/page/detail.tpl": {
+      "uri": "page/detail.tpl",
+      "type": "tpl",
+      "deps": [
+        "page/detail"
+      ]
+    },
+    "view/layout/base.tpl": {
+      "uri": "layout/base.tpl",
+      "type": "tpl",
+      "deps": [
+        "view/lib/md.js",
+        "view/lib/pagelet/pagelet.js",
+        "view/lib/pagelet/pagelet-cache.js"
+      ]
+    },
+    "view/layout/layout.js": {
+      "uri": "/public/v/layout/layout.js",
+      "type": "js",
+      "deps": [
+        "framework/zepto"
+      ]
+    },
+    "view/layout/layout.tpl": {
+      "uri": "layout/layout.tpl",
+      "type": "tpl",
+      "deps": [
+        "view/layout/layout.js"
+      ]
+    },
+    "view/layout/meta.tpl": {
+      "uri": "layout/meta.tpl",
+      "type": "tpl"
+    },
+    "view/lib/md.js": {
+      "uri": "/public/v/lib/md.js",
+      "type": "js"
+    },
+    "view/lib/pagelet/pagelet-cache.js": {
+      "uri": "/public/v/lib/pagelet/pagelet-cache.js",
+      "type": "js"
+    },
+    "view/lib/pagelet/pagelet.js": {
+      "uri": "/public/v/lib/pagelet/pagelet.js",
+      "type": "js"
+    },
+    "view/page/list.tpl": {
+      "uri": "page/list.tpl",
+      "type": "tpl",
+      "deps": [
+        "page/list"
+      ]
+    },
+    "view/page/test.tpl": {
+      "uri": "page/test.tpl",
+      "type": "tpl"
+    }
+  },
+  "combo": false,
+  "hash": "3a5ce81"
+}

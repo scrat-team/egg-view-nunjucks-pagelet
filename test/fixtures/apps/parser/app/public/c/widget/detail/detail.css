@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.module-photos .pic, .module-news .pic {
+  background-color: #FAF5F2;
+  background-image: url(/public/c/widget/shared-style/images/default_pic.png);
+  -webkit-background-size: 57px 57px;
+  background-size: 57px 57px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

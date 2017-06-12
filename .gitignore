@@ -1,0 +1,12 @@
+node_modules
+.idea
+yarn.lock
+*.log
+logs/
+coverage/
+.DS_Store
+*.swp
+logs
+run
+.vscode
+package-lock.json
