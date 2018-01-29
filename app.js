@@ -20,4 +20,7 @@ module.exports = app => {
 
   // register pagelet tags to the view engine
   pagelet.register(app.nunjucks);
+
+  // expose pagelet object for pwa-pagelet plugin
+  app.pageletEngine = pagelet;
 };
