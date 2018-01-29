@@ -1,6 +1,6 @@
 {
   "name": "egg-view-nunjucks-pagelet",
-  "version": "1.0.0",
+  "version": "1.1.0-beta",
   "description": "Egg view plugin base on nunjucks-pagelet",
   "eggPlugin": {
     "name": "nunjucksPagelet",
@@ -32,7 +32,7 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "nunjucks-pagelet": "^2.0.0"
+    "nunjucks-pagelet": "beta"
   },
   "devDependencies": {
     "autod": "^2.8.0",
