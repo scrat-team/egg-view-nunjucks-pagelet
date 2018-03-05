@@ -1,6 +1,6 @@
 {
   "name": "egg-view-nunjucks-pagelet",
-  "version": "1.1.0-beta",
+  "version": "1.1.0",
   "description": "Egg view plugin base on nunjucks-pagelet",
   "eggPlugin": {
     "name": "nunjucksPagelet",
