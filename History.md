@@ -1,5 +1,5 @@
 
-1.1.0 / 2018-03-05
+1.1.1 / 2018-03-05
 ==================
 
   * deps: upgrade `nunjucks-pagelet` module
